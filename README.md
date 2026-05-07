@@ -82,8 +82,51 @@ Launch UI mode - python NetTraceBeta.py --ui
 git clone https://github.com/20cdelmonaco/NetTraceBeta.git
 cd NetTraceBeta
 
-# Run NetTracebeta
+# Run NetTrace
   python NetTraceBeta.py
+
+┌──────────────────────────────────────────────────────────────┐
+│                          NetTrace                             │
+│                 Real‑Time Network Diagnostics                 │
+└──────────────────────────────────────────────────────────────┘
+                 │
+                 ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        UI Layer (CLI/UI)                      │
+│  • Terminal‑style interface                                   │
+│  • Theme engine (JSON‑based)                                  │
+│  • Input handling (IP, domain, commands)                      │
+│  • Output formatting (colors, status, logs)                   │
+└──────────────────────────────────────────────────────────────┘
+                 │
+                 ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    Core Network Engine                        │
+│  • IP tracing (hop‑by‑hop)                                    │
+│  • Latency measurement (ping)                                 │
+│  • DNS lookup / reverse lookup                                │
+│  • Route inspection                                            │
+│  • Error handling & validation                                │
+└──────────────────────────────────────────────────────────────┘
+                 │
+                 ▼
+┌──────────────────────────────────────────────────────────────┐
+│                        Utility Modules                        │
+│  • OS‑safe subprocess wrappers                                │
+│  • Cross‑platform compatibility (Windows/macOS/Linux)         │
+│  • Timing utilities                                           │
+│  • Output parsing helpers                                     │
+└──────────────────────────────────────────────────────────────┘
+                 │
+                 ▼
+┌──────────────────────────────────────────────────────────────┐
+│                      System Interfaces                        │
+│  • ICMP / ping commands                                       │
+│  • traceroute / tracert                                       │
+│  • DNS resolver (socket + Python stdlib)                      │
+│  • Network stack (OS‑native)                                  │
+└──────────────────────────────────────────────────────────────┘
+
 
 
 
