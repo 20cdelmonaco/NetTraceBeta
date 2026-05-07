@@ -82,7 +82,7 @@ Launch UI mode - python NetTraceBeta.py --ui
 git clone https://github.com/20cdelmonaco/NetTraceBeta.git
 cd NetTraceBeta
 
-cd Run NetTracebeta
+# Run NetTracebeta
   python NetTraceBeta.py
 
 
