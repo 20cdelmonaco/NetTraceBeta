@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
 
-NetTrace is a fast, lightweight network‑diagnostics tool designed for developers, analysts, and security‑minded users who need clear, real‑time visibility into how their connections behave. Built entirely on Python’s standard library, it performs IP tracing, latency checks, DNS lookups, and route inspection without any external dependencies. With a clean terminal‑inspired interface and a modular architecture, NetTrace delivers accurate, privacy‑respecting network insights on Windows, macOS, and Linux — all in a portable, deploy‑ready package.
+NetTrace is a fast, lightweight deep network tool designed for developers, analysts, and security‑minded users who need clear, real‑time visibility into how their connections behave. Built entirely on Python’s standard library, it performs IP tracing, latency checks, DNS lookups, and route inspection without any external dependencies. With a clean terminal‑inspired interface and a modular architecture, NetTrace delivers accurate, privacy‑respecting network insights on Windows, macOS, and Linux — all in a portable, deploy‑ready package.
 
 ---
 ## 🔌 Data Flow Summary
