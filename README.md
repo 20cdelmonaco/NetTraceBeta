@@ -86,45 +86,45 @@ cd NetTraceBeta
 python NetTraceBeta.py
 
 ┌───────────────────────────────────────────────────-───────────┐
-│                          NetTrace                             │
-│                 Real‑Time Network Diagnostics                 │
+│                          NetTrace                              │
+│                 Real‑Time Network Diagnostics                  │
 └──────────────────────────────────────────────────-────────────┘
                  │
                  ▼
 ┌────────────────────────────────────────────────-──────────────┐
-│                        UI Layer (CLI/UI)                      │
-│  • Terminal‑style interface                                   │
-│  • Theme engine (JSON‑based)                                  │
-│  • Input handling (IP, domain, commands)                      │
-│  • Output formatting (colors, status, logs)                   │
+│                        UI Layer (CLI/UI)                       │
+│  • Terminal‑style interface                                    │
+│  • Theme engine (JSON‑based)                                   │
+│  • Input handling (IP, domain, commands)                       │
+│  • Output formatting (colors, status, logs)                    │
 └─────────────────────────────────────────────────-─────────────┘
                  │
                  ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                    Core Network Engine                       │
-│  • IP tracing (hop‑by‑hop)                                   │
-│  • Latency measurement (ping)                                │
-│  • DNS lookup / reverse lookup                               │
-│  • Route inspection                                          │
-│  • Error handling & validation                               │
+│                    Core Network Engine                        │
+│  • IP tracing (hop‑by‑hop)                                    │
+│  • Latency measurement (ping)                                 │
+│  • DNS lookup / reverse lookup                                │
+│  • Route inspection                                           │
+│  • Error handling & validation                                │
 └──────────────────────────────────────────────────────────────┘
                  │
                  ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                        Utility Modules                       │
-│  • OS‑safe subprocess wrappers                               │
-│  • Cross‑platform compatibility                              │
-│  • Timing utilities                                          │
-│  • Output parsing helpers                                    │
+│                        Utility Modules                        │
+│  • OS‑safe subprocess wrappers                                │
+│  • Cross‑platform compatibility                               │
+│  • Timing utilities                                           │
+│  • Output parsing helpers                                     │
 └──────────────────────────────────────────────────────────────┘
                  │
                  ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                      System Interfaces                       │
-│  • ICMP / ping commands                                      │
-│  • traceroute / tracert                                      │
-│  • DNS resolver (socket + stdlib)                            │
-│  • OS‑native network stack                                   │
+│                      System Interfaces                        │
+│  • ICMP / ping commands                                       │
+│  • traceroute / tracert                                       │
+│  • DNS resolver (socket + stdlib)                             │
+│  • OS‑native network stack                                    │
 └───────────────────────────────────────────────-──────────────┘
 
 
