@@ -77,55 +77,65 @@ python NetTraceBeta.py --ping 8.8.4.4
 # Launch UI Mode
 python NetTraceBeta.py --ui
 
-🧩 Installation
-1. Clone the repository
+### **1. Clone the repository**\
+```bash
 git clone https://github.com/20cdelmonaco/NetTraceBeta.git
 cd NetTraceBeta
 
-2. Run NetTrace
-python NetTraceBeta.py
+2. Run NetTraceBeta
+  python NetTraceBeta.py
 
-┌───────────────────────────────────────────────────-───────────┐
-│                          NetTrace                              │
-│                 Real‑Time Network Diagnostics                  │
-└──────────────────────────────────────────────────-────────────┘
-                 │
-                 ▼
-┌────────────────────────────────────────────────-──────────────┐
-│                        UI Layer (CLI/UI)                       │
-│  • Terminal‑style interface                                    │
-│  • Theme engine (JSON‑based)                                   │
-│  • Input handling (IP, domain, commands)                       │
-│  • Output formatting (colors, status, logs)                    │
-└─────────────────────────────────────────────────-─────────────┘
-                 │
-                 ▼
-┌──────────────────────────────────────────────────────────────┐
-│                    Core Network Engine                        │
-│  • IP tracing (hop‑by‑hop)                                    │
-│  • Latency measurement (ping)                                 │
-│  • DNS lookup / reverse lookup                                │
-│  • Route inspection                                           │
-│  • Error handling & validation                                │
-└──────────────────────────────────────────────────────────────┘
-                 │
-                 ▼
-┌──────────────────────────────────────────────────────────────┐
-│                        Utility Modules                        │
-│  • OS‑safe subprocess wrappers                                │
-│  • Cross‑platform compatibility                               │
-│  • Timing utilities                                           │
-│  • Output parsing helpers                                     │
-└──────────────────────────────────────────────────────────────┘
-                 │
-                 ▼
-┌──────────────────────────────────────────────────────────────┐
-│                      System Interfaces                        │
-│  • ICMP / ping commands                                       │
-│  • traceroute / tracert                                       │
-│  • DNS resolver (socket + stdlib)                             │
-│  • OS‑native network stack                                    │
-└───────────────────────────────────────────────-──────────────┘
+################################################################
+#                                                              #
+#                        NETTRACE                              #
+#             REAL‑TIME NETWORK DIAGNOSTICS                    #
+#                                                              #
+################################################################
+                              ||
+                              ||
+                              \/
+################################################################
+#                    UI LAYER (CLI / TUI)                      #
+# ------------------------------------------------------------ #
+#   • Terminal‑style interface                                 #
+#   • JSON‑based theme engine                                  #
+#   • Input handling (IP / domain / commands)                  #
+#   • Output formatting (colors / status / logs)               #
+################################################################
+                              ||
+                              ||
+                              \/
+################################################################
+#                   CORE NETWORK ENGINE                        #
+# ------------------------------------------------------------ #
+#   • Hop‑by‑hop IP tracing                                    #
+#   • Latency measurement (ICMP ping)                          #
+#   • DNS lookup / reverse lookup                              #
+#   • Route inspection                                         #
+#   • Error handling & validation                              #
+################################################################
+                              ||
+                              ||
+                              \/
+################################################################
+#                      UTILITY MODULES                         #
+# ------------------------------------------------------------ #
+#   • OS‑safe subprocess wrappers                              #
+#   • Cross‑platform compatibility                             #
+#   • Timing utilities                                         #
+#   • Output parsing helpers                                   #
+################################################################
+                              ||
+                              ||
+                              \/
+################################################################
+#                     SYSTEM INTERFACES                        #
+# ------------------------------------------------------------ #
+#   • ICMP / ping commands                                     #
+#   • traceroute / tracert                                     #
+#   • DNS resolver (socket + stdlib)                           #
+#   • OS‑native network stack                                  #
+################################################################
 
 
 
